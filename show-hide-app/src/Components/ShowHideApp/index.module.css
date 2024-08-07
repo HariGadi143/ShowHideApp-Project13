@@ -1,0 +1,79 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.showHideWrapper {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #fa7257, #fc63a7);
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.showHideWrapper h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* .showHideWrapper div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+} */
+
+.bottomWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.firstContainer button {
+  background-color: white;
+  color: #dd1264;
+  font-size: 16px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.secondContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.secondContainer div {
+  background-color: #fddddb;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  color: black;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
